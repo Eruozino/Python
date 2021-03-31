@@ -18,7 +18,8 @@ totalSeconds = 0
 while True:
     pl_request = youtube.playlistItems().list(
             part = 'contentDetails',
-            playlistId = 'PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS',
+            ###Sample Playlist
+            playlistId = 'OLAK5uy_k9JzaucpnUEtwkI6e1N4eD7eYSVpM9MZA',
             maxResults = 50,
             pageToken = nextPageToken
         )
